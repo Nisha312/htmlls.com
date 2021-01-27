@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>happy & sad img</title>
+    
+</head>
+
+<body>
+    
+            <button onclick="changeImg('img/download.png')" type="button">Happy</button>
+            <button onclick="changeImg('img/depositphotos_6489061-stock-photo-sad-symbol.jpg')" type="button"> sad</button>
+        
+
+        <img id="btn" width="600px" height="600px" src='img/download.png' alt="alt">
+
+    
+
+
+    <script>
+        function changeImg(imageLink) {
+            document.getElementById('btn').src = imageLink;
+        }
+    </script>
+
+</body>
+
+</html>
